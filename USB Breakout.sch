@@ -1,0 +1,368 @@
+EESchema Schematic File Version 2  date 25/04/2013 11:34:10
+LIBS:USB Breakout
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:logos
+LIBS:USB Breakout-cache
+EELAYER 27 0
+EELAYER END
+$Descr User 6000 4250
+encoding utf-8
+Sheet 1 1
+Title "USB Cable Breakout Tester"
+Date "7 jun 2012"
+Rev "2.0"
+Comp "Sembazuru Circuits"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 950  2000 0    60   ~ 0
+Shield
+Text Label 4750 2000 0    60   ~ 0
+Shield
+Connection ~ 2600 2050
+Wire Wire Line
+	2600 2050 2400 2050
+Wire Wire Line
+	2400 2050 2400 1800
+Wire Wire Line
+	2400 1800 900  1800
+Connection ~ 3300 1400
+Wire Wire Line
+	3300 1400 3600 1400
+Wire Wire Line
+	3600 1400 3600 1700
+Wire Wire Line
+	3600 1700 5100 1700
+Connection ~ 3300 2700
+Wire Wire Line
+	3300 2700 3850 2700
+Wire Wire Line
+	3850 2700 3850 1900
+Wire Wire Line
+	3300 850  3300 650 
+Wire Wire Line
+	3300 2150 3300 1950
+Connection ~ 2600 2700
+Wire Wire Line
+	2600 2700 2150 2700
+Wire Wire Line
+	2150 2700 2150 1900
+Wire Wire Line
+	2600 1950 2600 2150
+Connection ~ 2600 750 
+Wire Wire Line
+	2600 850  2600 650 
+Wire Wire Line
+	2600 750  2150 750 
+Wire Wire Line
+	2150 750  2150 1600
+Wire Wire Line
+	5100 1600 3850 1600
+Wire Wire Line
+	2150 1600 900  1600
+Connection ~ 4450 1800
+Wire Wire Line
+	4450 1450 4450 1800
+Connection ~ 4050 1600
+Wire Wire Line
+	4050 1600 4050 1450
+Connection ~ 1750 1800
+Wire Wire Line
+	1750 1450 1750 1800
+Connection ~ 1350 1600
+Wire Wire Line
+	1350 1450 1350 1600
+Wire Wire Line
+	1550 1450 1550 1700
+Connection ~ 1550 1700
+Wire Wire Line
+	1950 1900 1950 1450
+Connection ~ 1950 1900
+Wire Wire Line
+	4250 1450 4250 1700
+Connection ~ 4250 1700
+Wire Wire Line
+	4650 1450 4650 1900
+Connection ~ 4650 1900
+Wire Wire Line
+	2150 1900 900  1900
+Wire Wire Line
+	3850 1900 5100 1900
+Wire Wire Line
+	2600 1300 2600 1500
+Wire Wire Line
+	2600 2600 2600 2800
+Wire Wire Line
+	3300 2800 3300 2600
+Wire Wire Line
+	3300 1500 3300 1300
+Wire Wire Line
+	3850 1600 3850 750 
+Wire Wire Line
+	3850 750  3300 750 
+Connection ~ 3300 750 
+Wire Wire Line
+	5100 1800 3600 1800
+Wire Wire Line
+	3600 1800 3600 2050
+Wire Wire Line
+	3600 2050 3300 2050
+Connection ~ 3300 2050
+Wire Wire Line
+	900  1700 2400 1700
+Wire Wire Line
+	2400 1700 2400 1400
+Wire Wire Line
+	2400 1400 2600 1400
+Connection ~ 2600 1400
+Wire Wire Line
+	900  2000 1550 2000
+Wire Wire Line
+	1550 2000 1550 3000
+Wire Wire Line
+	1550 3000 4450 3000
+Wire Wire Line
+	4450 3000 4450 2000
+Wire Wire Line
+	4450 2000 5100 2000
+$Comp
+L DPST SW4
+U 1 1 4FCC06F7
+P 2950 2700
+F 0 "SW4" H 2950 2500 70  0000 C CNN
+F 1 "DPST" H 2950 2950 70  0000 C CNN
+F 2 "SW_S201031MS02Q" H 2950 2700 60  0001 C CNN
+F 3 "C&K/S_31aug10.pdf" H 2950 2700 60  0001 C CNN
+F 4 "C&K SWITCHES" H 2950 2700 60  0001 C CNN "Manufacturer"
+F 5 "S201031MS02Q" H 2950 2700 60  0001 C CNN "MFG#"
+	1    2950 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L DPST SW3
+U 1 1 4FCC06F4
+P 2950 2050
+F 0 "SW3" H 2950 1850 70  0000 C CNN
+F 1 "DPST" H 2950 2300 70  0000 C CNN
+F 2 "SW_S201031MS02Q" H 2950 2050 60  0001 C CNN
+F 3 "C&K/S_31aug10.pdf" H 2950 2050 60  0001 C CNN
+F 4 "C&K SWITCHES" H 2950 2050 60  0001 C CNN "Manufacturer"
+F 5 "S201031MS02Q" H 2950 2050 60  0001 C CNN "MFG#"
+	1    2950 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L DPST SW2
+U 1 1 4FCC06F1
+P 2950 1400
+F 0 "SW2" H 2950 1200 70  0000 C CNN
+F 1 "DPST" H 2950 1650 70  0000 C CNN
+F 2 "SW_S201031MS02Q" H 2950 1400 60  0001 C CNN
+F 3 "C&K/S_31aug10.pdf" H 2950 1400 60  0001 C CNN
+F 4 "C&K SWITCHES" H 2950 1400 60  0001 C CNN "Manufacturer"
+F 5 "S201031MS02Q" H 2950 1400 60  0001 C CNN "MFG#"
+	1    2950 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L DPST SW1
+U 1 1 4FCC04AA
+P 2950 750
+F 0 "SW1" H 2950 550 70  0000 C CNN
+F 1 "DPST" H 2950 1000 70  0000 C CNN
+F 2 "SW_S201031MS02Q" H 2950 750 60  0001 C CNN
+F 3 "C&K/S_31aug10.pdf" H 2950 750 60  0001 C CNN
+F 4 "C&K SWITCHES" H 2950 750 60  0001 C CNN "Manufacturer"
+F 5 "S201031MS02Q" H 2950 750 60  0001 C CNN "MFG#"
+	1    2950 750 
+	1    0    0    1   
+$EndComp
+$Comp
+L CRANE_LOGO #G1
+U 1 1 4FC84EA6
+P 900 3400
+F 0 "#G1" H 900 2964 60  0001 C CNN
+F 1 "CRANE_LOGO" H 900 3736 60  0001 C CNN
+F 2 "CRANE_LOGO" H 900 3400 60  0001 C CNN
+F 3 "" H 900 3400 60  0001 C CNN
+	1    900  3400
+	1    0    0    -1  
+$EndComp
+Text Label 4750 1900 0    60   ~ 0
+GNDm
+Text Label 4750 1800 0    60   ~ 0
+D+m
+Text Label 4750 1700 0    60   ~ 0
+D-m
+Text Label 4750 1600 0    60   ~ 0
+VBUSm
+Text Label 950  1900 0    60   ~ 0
+GNDf
+Text Label 950  1800 0    60   ~ 0
+D+f
+Text Label 950  1700 0    60   ~ 0
+D-f
+Text Label 950  1600 0    60   ~ 0
+VBUSf
+$Comp
+L TST TPf4
+U 1 1 4FC6F5FE
+P 1950 1450
+F 0 "TPf4" H 1950 1750 40  0000 C CNN
+F 1 "GNDf" H 1950 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 1950 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 1950 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 1950 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 1950 1450 60  0001 C CNN "MFG#"
+	1    1950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPf3
+U 1 1 4FC6F5FB
+P 1750 1450
+F 0 "TPf3" H 1750 1750 40  0000 C CNN
+F 1 "D+f" H 1750 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 1750 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 1750 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 1750 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 1750 1450 60  0001 C CNN "MFG#"
+	1    1750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPf2
+U 1 1 4FC6F5F7
+P 1550 1450
+F 0 "TPf2" H 1550 1750 40  0000 C CNN
+F 1 "D-f" H 1550 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 1550 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 1550 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 1550 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 1550 1450 60  0001 C CNN "MFG#"
+	1    1550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPf1
+U 1 1 4FC6F5F4
+P 1350 1450
+F 0 "TPf1" H 1350 1750 40  0000 C CNN
+F 1 "VBUSf" H 1350 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 1350 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 1350 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 1350 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 1350 1450 60  0001 C CNN "MFG#"
+	1    1350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm4
+U 1 1 4FC6F5E5
+P 4650 1450
+F 0 "TPm4" H 4650 1750 40  0000 C CNN
+F 1 "GNDm" H 4650 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 4650 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 4650 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 4650 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 4650 1450 60  0001 C CNN "MFG#"
+	1    4650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm3
+U 1 1 4FC6F5E1
+P 4450 1450
+F 0 "TPm3" H 4450 1750 40  0000 C CNN
+F 1 "D+m" H 4450 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 4450 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 4450 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 4450 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 4450 1450 60  0001 C CNN "MFG#"
+	1    4450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm2
+U 1 1 4FC6F5D2
+P 4250 1450
+F 0 "TPm2" H 4250 1750 40  0000 C CNN
+F 1 "D-m" H 4250 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 4250 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 4250 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 4250 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 4250 1450 60  0001 C CNN "MFG#"
+	1    4250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm1
+U 1 1 4FC6F5C4
+P 4050 1450
+F 0 "TPm1" H 4050 1750 40  0000 C CNN
+F 1 "VBUSm" H 4050 1700 30  0000 C CNN
+F 2 "TESTPOINT" H 4050 1800 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 4050 1450 60  0001 C CNN
+F 4 "Keystone Electronics" H 4050 1450 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 4050 1450 60  0001 C CNN "MFG#"
+	1    4050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_2 J1
+U 1 1 4FC6F439
+P 700 1750
+F 0 "J1" H 625 2000 60  0000 C CNN
+F 1 "USB A recepticle" H 900 1450 60  0000 C CNN
+F 2 "TYCO_292303-1" H 750 1550 60  0001 C CNN
+F 3 "TYCO\\ENG_CD_292303_E8-2.pdf" H 700 1750 60  0001 C CNN
+F 4 "TYCO" H 700 1750 60  0001 C CNN "Manufacturer"
+F 5 "292303-1" H 700 1750 60  0001 C CNN "MFG#"
+	1    700  1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_2 J2
+U 1 1 4FC6F41E
+P 5300 1750
+F 0 "J2" H 5225 2000 60  0000 C CNN
+F 1 "USB A plug" H 5400 1450 60  0000 C CNN
+F 2 "MOLEX_48037-0001" H 5350 1550 60  0001 C CNN
+F 3 "Molex/480370001_sd.pdf" H 5300 1750 60  0001 C CNN
+F 4 "Molex" H 5300 1750 60  0001 C CNN "Manufacturer"
+F 5 "48037-0001" H 5300 1750 60  0001 C CNN "MFG#"
+	1    5300 1750
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

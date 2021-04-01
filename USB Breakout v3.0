@@ -1,0 +1,24 @@
+Reference, Value, Footprint, Datasheet, Manufacturer, MFG#, Vendor, Part#
+TPf4,Black,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5011,,
+TPf3,Green,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5126,,
+TPf2,White,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5012,Jameco,1582065
+TPf1,Red,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5010,,
+TPm4,Black,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5011,,
+TPm3,Green,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5126,,
+TPm2,White,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5012,Jameco,1582065
+TPm1,Red,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5010,,
+SW1,SPST,ipc-7251TH Non-Standard:SW_Jameco2135478U,,JAMECO VALUEPRO,T100T1B4A2,Jameco,2135478
+SW4,SPST,ipc-7251TH Non-Standard:SW_Jameco2135478U,,JAMECO VALUEPRO,T100T1B4A2,Jameco,2135478
+J2,USB 3.0 Receptacle,ipc-7251TH Connectors:Amphenol_GSB311131HR,Amphenol\USB3 Receptacle GSB311131HR.pdf,Amphenol,GSB311131HR,DigiKey,GSB311131HR-ND
+J1,USB 3.0 Plug,ipc-7251TH Connectors:Amphenol_GSB316441CEU,Amphenol\USB3 Plug GSB316441CEU.pdf,Amphenol,GSB316441CEU,DigiKey,GSB316441CEUCT-ND
+TPm9,Orange,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5013,,
+TPm8,Purple,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5129,,
+TPm6,Yellow,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5014,,
+TPm5,Blue,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5127,,
+TPf9,Orange,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5013,,
+TPf8,Purple,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5129,,
+TPf6,Yellow,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5014,,
+TPf5,Blue,Misc Unsorted New:TESTPOINT,Keystone\Testpoint 50nn Multipurpose.pdf,Keystone Electronics,5127,,
+SW2,2xSPST,ipc-7251TH Standard:DIPSW762W57P254L608H570Q4U,,JAMECO VALUEPRO,206-2-VP-R,Jameco,109059
+SW8,2xSPST,ipc-7251TH Standard:DIPSW762W57P254L608H570Q4U,,JAMECO VALUEPRO,206-2-VP-R,Jameco,109059
+SW5,2xSPST,ipc-7251TH Standard:DIPSW762W57P254L608H570Q4U,,JAMECO VALUEPRO,206-2-VP-R,Jameco,109059

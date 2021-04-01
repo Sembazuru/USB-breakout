@@ -1,0 +1,682 @@
+## Module report - date 08/06/2012 13:01:15
+## Created by Pcbnew version pcbnew (2012-01-19 BZR 3256)-stable
+## Unit = inches, Angle = deg.
+##
+
+$BeginDESCRIPTION
+
+$BOARD
+unit INCH
+upper_left_corner  3.154000  4.059900
+lower_right_corner  8.722800  8.012000
+$EndBOARD
+
+$MODULE "J2"
+reference "J2"
+value "Plug"
+footprint "MOLEX_48037-0001"
+attribut none
+position  7.260000  5.275000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "connectors\\480370001.stp.stl.wrl"
+Sc 0.393701 0.393701 0.393701
+Of 0.410640 0.000000 0.031250
+Ro -90.000000 0.000000 -90.000000
+$EndSHAPE3D
+$PAD "1"
+position  0.000000 -0.137800
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000 -0.039400
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "3"
+position  0.000000  0.039400
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.000000  0.137800
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.082700 -0.224400
+size  0.118100  0.118100
+drill  0.098400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.082700  0.224400
+size  0.118100  0.118100
+drill  0.098400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD ""
+position  0.082700 -0.088600
+size  0.043300  0.043300
+drill  0.043300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD ""
+position  0.088600  0.082700
+size  0.043300  0.043300
+drill  0.043300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "J1"
+reference "J1"
+value "Recepticle"
+footprint "TYCO_292303-1"
+attribut none
+position  3.750000  5.275000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "connectors\\c-292303-1-e3-3d.stp.stl.wrl"
+Sc 0.393701 0.393701 0.393701
+Of 0.511417 0.000000 0.171717
+Ro -90.000000 0.000000 -90.000000
+$EndSHAPE3D
+$PAD "4"
+position  0.000000 -0.140000
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "3"
+position  0.000000 -0.040000
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000  0.040000
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.000000  0.140000
+size  0.059100  0.059100
+drill  0.036200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.106700 -0.258700
+size  0.118100  0.118100
+drill  0.090600
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.106700  0.258700
+size  0.118100  0.118100
+drill  0.090600
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "G***"
+reference "G***"
+value "CRANE_LOGO"
+footprint "CRANE_LOGO"
+attribut none
+position  3.915000  6.010000
+orientation  90.00
+layer component
+$EndMODULE  G***
+
+$MODULE "TPm1"
+reference "TPm1"
+value "VBUSm"
+footprint "TESTPOINT"
+attribut none
+position  6.650000  4.375000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPm1
+
+$MODULE "TPf4"
+reference "TPf4"
+value "GNDf"
+footprint "TESTPOINT"
+attribut none
+position  4.250000  6.175000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPf4
+
+$MODULE "TPf3"
+reference "TPf3"
+value "D+f"
+footprint "TESTPOINT"
+attribut none
+position  4.250000  5.575000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPf3
+
+$MODULE "TPf2"
+reference "TPf2"
+value "D-f"
+footprint "TESTPOINT"
+attribut none
+position  4.250000  4.975000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPf2
+
+$MODULE "TPm4"
+reference "TPm4"
+value "GNDm"
+footprint "TESTPOINT"
+attribut none
+position  6.650000  6.175000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPm4
+
+$MODULE "TPm3"
+reference "TPm3"
+value "D+m"
+footprint "TESTPOINT"
+attribut none
+position  6.650000  5.575000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPm3
+
+$MODULE "TPm2"
+reference "TPm2"
+value "D-m"
+footprint "TESTPOINT"
+attribut none
+position  6.650000  4.975000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPm2
+
+$MODULE "TPf1"
+reference "TPf1"
+value "VBUSf"
+footprint "TESTPOINT"
+attribut none
+position  4.250000  4.375000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "connectors\\Keystone5012.FCStd.stl.wrl"
+Sc 0.254000 0.254000 0.254000
+Of 0.100000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.100000  0.000000
+size  0.100000  0.100000
+drill  0.063000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TPf1
+
+$MODULE "SW4"
+reference "SW4"
+value "DPST"
+footprint "SW_S201031MS02Q"
+attribut none
+position  5.450000  6.175000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "switches\\CK_S201031MS02Q.FCStd.stl.wrl"
+Sc 0.400000 0.400000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 180.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.250000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.250000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.000000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  SW4
+
+$MODULE "SW3"
+reference "SW3"
+value "DPST"
+footprint "SW_S201031MS02Q"
+attribut none
+position  5.450000  5.575000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "switches\\CK_S201031MS02Q.FCStd.stl.wrl"
+Sc 0.400000 0.400000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 180.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.250000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.250000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.000000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  SW3
+
+$MODULE "SW2"
+reference "SW2"
+value "DPST"
+footprint "SW_S201031MS02Q"
+attribut none
+position  5.450000  4.975000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "switches\\CK_S201031MS02Q.FCStd.stl.wrl"
+Sc 0.400000 0.400000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 180.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.250000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.250000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.000000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  SW2
+
+$MODULE "SW1"
+reference "SW1"
+value "DPST"
+footprint "SW_S201031MS02Q"
+attribut none
+position  5.450000  4.375000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "switches\\CK_S201031MS02Q.FCStd.stl.wrl"
+Sc 0.400000 0.400000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 180.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.250000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000 -0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.250000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.000000  0.150000
+size  0.100000  0.100000
+drill  0.073000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  SW1
+
+$LINE 
+start 7.450000 6.475000
+end 3.450000 6.475000
+width 0.015000
+$EndLINE 
+$LINE 
+start 3.450000 4.075000
+end 7.450000 4.075000
+width 0.015000
+$EndLINE 
+$LINE 
+start 3.450000 6.475000
+end 3.450000 4.075000
+width 0.015000
+$EndLINE 
+$LINE 
+start 7.450000 4.075000
+end 7.450000 6.475000
+width 0.015000
+$EndLINE 
+$EndDESCRIPTION

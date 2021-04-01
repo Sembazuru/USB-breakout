@@ -1,0 +1,8 @@
+
+#   Specified     Qty        Measured
+T1  0.036"        8 holes    0.043"
+T2  0.039"x0.98"  2 oblongs  0.040"x0.102"
+T3  0.043"        2 holes    0.070"
+T4  0.063"        16 holes   0.076"
+T5  0.073"        16 holes   0.095"
+T6  0.091"        2 holes    0.095"

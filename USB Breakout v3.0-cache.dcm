@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NewUnsorted_DIP_SW02
+D DIP Switch 2 Circuits
+$ENDCMP
+#
+$CMP NewUnsorted_USB_3
+D USB 3.0 Connector
+$ENDCMP
+#
+#End Doc Library

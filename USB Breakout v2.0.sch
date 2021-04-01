@@ -1,0 +1,362 @@
+EESchema Schematic File Version 2
+LIBS:USB Breakout
+LIBS:NewUnsorted
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:logos
+LIBS:USB Breakout v2.0-cache
+EELAYER 24 0
+EELAYER END
+$Descr User 8500 5500
+encoding utf-8
+Sheet 1 1
+Title "USB Cable Breakout Tester"
+Date "27 apr 2013"
+Rev "2.0"
+Comp "Sembazuru Circuits"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 2000 2400 0    60   ~ 0
+Shield
+Text Label 5800 2400 0    60   ~ 0
+Shield
+Wire Wire Line
+	3450 2200 3450 2450
+Wire Wire Line
+	1950 2200 3450 2200
+Wire Wire Line
+	4650 1850 4650 2100
+Wire Wire Line
+	4650 2100 6150 2100
+Wire Wire Line
+	4900 3050 4900 2300
+Wire Wire Line
+	3200 2300 3200 3050
+Wire Wire Line
+	3200 2000 3200 1250
+Wire Wire Line
+	4900 2000 6150 2000
+Wire Wire Line
+	1950 2000 3200 2000
+Connection ~ 5500 2200
+Wire Wire Line
+	5500 1850 5500 2200
+Connection ~ 5100 2000
+Wire Wire Line
+	5100 2000 5100 1850
+Connection ~ 2800 2200
+Wire Wire Line
+	2800 1850 2800 2200
+Connection ~ 2400 2000
+Wire Wire Line
+	2400 1850 2400 2000
+Wire Wire Line
+	2600 1850 2600 2100
+Connection ~ 2600 2100
+Wire Wire Line
+	3000 2300 3000 1850
+Connection ~ 3000 2300
+Wire Wire Line
+	5300 1850 5300 2100
+Connection ~ 5300 2100
+Wire Wire Line
+	5700 1850 5700 2300
+Connection ~ 5700 2300
+Wire Wire Line
+	1950 2300 3200 2300
+Wire Wire Line
+	4900 2300 6150 2300
+Wire Wire Line
+	4900 2000 4900 1250
+Wire Wire Line
+	4650 2200 6150 2200
+Wire Wire Line
+	4650 2200 4650 2450
+Wire Wire Line
+	1950 2100 3450 2100
+Wire Wire Line
+	3450 2100 3450 1850
+Wire Wire Line
+	1950 2400 2600 2400
+Wire Wire Line
+	2600 2400 2600 3350
+Wire Wire Line
+	2600 3350 5500 3350
+Wire Wire Line
+	5500 3350 5500 2400
+Wire Wire Line
+	5500 2400 6150 2400
+Text Label 5800 2300 0    60   ~ 0
+GNDm
+Text Label 5800 2200 0    60   ~ 0
+D+m
+Text Label 5800 2100 0    60   ~ 0
+D-m
+Text Label 5800 2000 0    60   ~ 0
+VBUSm
+Text Label 2000 2300 0    60   ~ 0
+GNDf
+Text Label 2000 2200 0    60   ~ 0
+D+f
+Text Label 2000 2100 0    60   ~ 0
+D-f
+Text Label 2000 2000 0    60   ~ 0
+VBUSf
+$Comp
+L TST TPf4
+U 1 1 4FC6F5FE
+P 3000 1850
+F 0 "TPf4" H 3000 2150 40  0000 C CNN
+F 1 "Black" H 3000 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 3000 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 3000 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 3000 1850 60  0001 C CNN "Manufacturer"
+F 5 "5011" H 3000 1850 60  0001 C CNN "MFG#"
+F 6 "~" H 3000 1850 60  0001 C CNN "Vendor"
+F 7 "~" H 3000 1850 60  0001 C CNN "Part#"
+	1    3000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPf3
+U 1 1 4FC6F5FB
+P 2800 1850
+F 0 "TPf3" H 2800 2150 40  0000 C CNN
+F 1 "Green" H 2800 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 2800 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 2800 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 2800 1850 60  0001 C CNN "Manufacturer"
+F 5 "5126" H 2800 1850 60  0001 C CNN "MFG#"
+F 6 "~" H 2800 1850 60  0001 C CNN "Vendor"
+F 7 "~" H 2800 1850 60  0001 C CNN "Part#"
+	1    2800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPf2
+U 1 1 4FC6F5F7
+P 2600 1850
+F 0 "TPf2" H 2600 2150 40  0000 C CNN
+F 1 "White" H 2600 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 2600 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 2600 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 2600 1850 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 2600 1850 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 2600 1850 60  0001 C CNN "Vendor"
+F 7 "1582065" H 2600 1850 60  0001 C CNN "Part#"
+	1    2600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPf1
+U 1 1 4FC6F5F4
+P 2400 1850
+F 0 "TPf1" H 2400 2150 40  0000 C CNN
+F 1 "Red" H 2400 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 2400 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 2400 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 2400 1850 60  0001 C CNN "Manufacturer"
+F 5 "5010" H 2400 1850 60  0001 C CNN "MFG#"
+F 6 "~" H 2400 1850 60  0001 C CNN "Vendor"
+F 7 "~" H 2400 1850 60  0001 C CNN "Part#"
+	1    2400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm4
+U 1 1 4FC6F5E5
+P 5700 1850
+F 0 "TPm4" H 5700 2150 40  0000 C CNN
+F 1 "Black" H 5700 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 5700 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 5700 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 5700 1850 60  0001 C CNN "Manufacturer"
+F 5 "5011" H 5700 1850 60  0001 C CNN "MFG#"
+F 6 "~" H 5700 1850 60  0001 C CNN "Vendor"
+F 7 "~" H 5700 1850 60  0001 C CNN "Part#"
+	1    5700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm3
+U 1 1 4FC6F5E1
+P 5500 1850
+F 0 "TPm3" H 5500 2150 40  0000 C CNN
+F 1 "Green" H 5500 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 5500 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 5500 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 5500 1850 60  0001 C CNN "Manufacturer"
+F 5 "5126" H 5500 1850 60  0001 C CNN "MFG#"
+F 6 "~" H 5500 1850 60  0001 C CNN "Vendor"
+F 7 "~" H 5500 1850 60  0001 C CNN "Part#"
+	1    5500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm2
+U 1 1 4FC6F5D2
+P 5300 1850
+F 0 "TPm2" H 5300 2150 40  0000 C CNN
+F 1 "White" H 5300 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 5300 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 5300 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 5300 1850 60  0001 C CNN "Manufacturer"
+F 5 "5012" H 5300 1850 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 5300 1850 60  0001 C CNN "Vendor"
+F 7 "1582065" H 5300 1850 60  0001 C CNN "Part#"
+	1    5300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST TPm1
+U 1 1 4FC6F5C4
+P 5100 1850
+F 0 "TPm1" H 5100 2150 40  0000 C CNN
+F 1 "Red" H 5100 2100 30  0000 C CNN
+F 2 "TESTPOINT" H 5100 2200 30  0001 C CNN
+F 3 "Keystone\\Testpoint 50nn Multipurpose.pdf" H 5100 1850 60  0001 C CNN
+F 4 "Keystone Electronics" H 5100 1850 60  0001 C CNN "Manufacturer"
+F 5 "5010" H 5100 1850 60  0001 C CNN "MFG#"
+F 6 "~" H 5100 1850 60  0001 C CNN "Vendor"
+F 7 "~" H 5100 1850 60  0001 C CNN "Part#"
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_2 J1
+U 1 1 4FC6F439
+P 1750 2150
+F 0 "J1" H 1675 2400 60  0000 C CNN
+F 1 "USB A receptacle" H 1950 1850 60  0000 C CNN
+F 2 "TYCO_292303-1" H 1800 1950 60  0001 C CNN
+F 3 "TYCO\\ENG_CD_292303_E8-2.pdf" H 1750 2150 60  0001 C CNN
+F 4 "TYCO" H 1750 2150 60  0001 C CNN "Manufacturer"
+F 5 "292303-1" H 1750 2150 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 1750 2150 60  0001 C CNN "Vendor"
+F 7 "921651" H 1750 2150 60  0001 C CNN "Part#"
+	1    1750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_2 J2
+U 1 1 4FC6F41E
+P 6350 2150
+F 0 "J2" H 6275 2400 60  0000 C CNN
+F 1 "USB A plug" H 6450 1850 60  0000 C CNN
+F 2 "MOLEX_48037-0001" H 6400 1950 60  0001 C CNN
+F 3 "Molex/480370001_sd.pdf" H 6350 2150 60  0001 C CNN
+F 4 "Molex" H 6350 2150 60  0001 C CNN "Manufacturer"
+F 5 "48037-0001" H 6350 2150 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 6350 2150 60  0001 C CNN "Vendor"
+F 7 "2161001" H 6350 2150 60  0001 C CNN "Part#"
+	1    6350 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW1
+U 1 1 51794F9B
+P 4000 1250
+F 0 "SW1" H 4000 1350 60  0000 C CNN
+F 1 "SPST" H 4000 1150 60  0000 C CNN
+F 2 "SW_Jameco2135478" H 4000 1050 60  0001 C CNN
+F 3 "~" H 4000 1250 60  0000 C CNN
+F 4 "JAMECO VALUEPRO" H 4000 1250 60  0001 C CNN "Manufacturer"
+F 5 "T100T1B4A2" H 4000 1250 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 4000 1050 60  0001 C CNN "Vendor"
+F 7 "2135478" H 4000 950 60  0001 C CNN "Part#"
+	1    4000 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_SPST SW2
+U 1 1 51795D5F
+P 4000 1850
+F 0 "SW2" H 4000 1950 60  0000 C CNN
+F 1 "SPST" H 4000 1750 60  0000 C CNN
+F 2 "SW_Jameco2135478" H 4000 1650 60  0001 C CNN
+F 3 "~" H 4000 1850 60  0000 C CNN
+F 4 "JAMECO VALUEPRO" H 4000 1850 60  0001 C CNN "Manufacturer"
+F 5 "T100T1B4A2" H 4000 1850 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 4000 1650 60  0001 C CNN "Vendor"
+F 7 "2135478" H 4000 1550 60  0001 C CNN "Part#"
+	1    4000 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_SPST SW3
+U 1 1 51795D69
+P 4000 2450
+F 0 "SW3" H 4000 2550 60  0000 C CNN
+F 1 "SPST" H 4000 2350 60  0000 C CNN
+F 2 "SW_Jameco2135478" H 4000 2250 60  0001 C CNN
+F 3 "~" H 4000 2450 60  0000 C CNN
+F 4 "JAMECO VALUEPRO" H 4000 2450 60  0001 C CNN "Manufacturer"
+F 5 "T100T1B4A2" H 4000 2450 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 4000 2250 60  0001 C CNN "Vendor"
+F 7 "2135478" H 4000 2150 60  0001 C CNN "Part#"
+	1    4000 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_SPST SW4
+U 1 1 51795D73
+P 4000 3050
+F 0 "SW4" H 4000 3150 60  0000 C CNN
+F 1 "SPST" H 4000 2950 60  0000 C CNN
+F 2 "SW_Jameco2135478" H 4000 2850 60  0001 C CNN
+F 3 "~" H 4000 3050 60  0000 C CNN
+F 4 "JAMECO VALUEPRO" H 4000 3050 60  0001 C CNN "Manufacturer"
+F 5 "T100T1B4A2" H 4000 3050 60  0001 C CNN "MFG#"
+F 6 "Jameco" H 4000 2850 60  0001 C CNN "Vendor"
+F 7 "2135478" H 4000 2750 60  0001 C CNN "Part#"
+	1    4000 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3050 3800 3050
+Wire Wire Line
+	3450 2450 3800 2450
+Wire Wire Line
+	3450 1850 3800 1850
+Wire Wire Line
+	3200 1250 3800 1250
+Wire Wire Line
+	4900 1250 4200 1250
+Wire Wire Line
+	4650 1850 4200 1850
+Wire Wire Line
+	4650 2450 4200 2450
+Wire Wire Line
+	4900 3050 4200 3050
+$EndSCHEMATC

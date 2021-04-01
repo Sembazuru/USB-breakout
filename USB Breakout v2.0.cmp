@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 27/04/2013 12:28:27
+
+BeginCmp
+TimeStamp = /4FC6F439;
+Reference = J1;
+ValeurCmp = USB A receptacle;
+IdModule  = TYCO_292303-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F41E;
+Reference = J2;
+ValeurCmp = USB A plug;
+IdModule  = MOLEX_48037-0001;
+EndCmp
+
+BeginCmp
+TimeStamp = /51794F9B;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SW_Jameco2135478;
+EndCmp
+
+BeginCmp
+TimeStamp = /51795D5F;
+Reference = SW2;
+ValeurCmp = SPST;
+IdModule  = SW_Jameco2135478;
+EndCmp
+
+BeginCmp
+TimeStamp = /51795D69;
+Reference = SW3;
+ValeurCmp = SPST;
+IdModule  = SW_Jameco2135478;
+EndCmp
+
+BeginCmp
+TimeStamp = /51795D73;
+Reference = SW4;
+ValeurCmp = SPST;
+IdModule  = SW_Jameco2135478;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5F4;
+Reference = TPf1;
+ValeurCmp = Red;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5F7;
+Reference = TPf2;
+ValeurCmp = White;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5FB;
+Reference = TPf3;
+ValeurCmp = Green;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5FE;
+Reference = TPf4;
+ValeurCmp = Black;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5C4;
+Reference = TPm1;
+ValeurCmp = Red;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5D2;
+Reference = TPm2;
+ValeurCmp = White;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5E1;
+Reference = TPm3;
+ValeurCmp = Green;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5E5;
+Reference = TPm4;
+ValeurCmp = Black;
+IdModule  = TESTPOINT;
+EndCmp
+
+EndListe

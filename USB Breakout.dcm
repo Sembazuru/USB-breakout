@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 05/06/2012 15:40:59
+#
+$CMP DPST
+D Interrupteur double
+K switch
+$ENDCMP
+#
+$CMP USB_2
+D USB Connector
+K USB usb CONNECTOR connector
+$ENDCMP
+#
+#End Doc Library

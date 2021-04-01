@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by Cvpcb (2014-04-11 BZR 4798)-product   date = 02/05/2014 15:32:13
+
+BeginCmp
+TimeStamp = /5355448B;
+Reference = J1;
+ValeurCmp = USB 3.0 Plug;
+IdModule  = ipc-7251TH Connectors:Amphenol_GSB316441CEU;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355446B;
+Reference = J2;
+ValeurCmp = USB 3.0 Receptacle;
+IdModule  = ipc-7251TH Connectors:Amphenol_GSB311131HR;
+EndCmp
+
+BeginCmp
+TimeStamp = /51794F9B;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = ipc-7251TH Non-Standard:SW_Jameco2135478U;
+EndCmp
+
+BeginCmp
+TimeStamp = /53555F5C;
+Reference = SW2;
+ValeurCmp = 2xSPST;
+IdModule  = ipc-7251TH Standard:DIPSW762W57P254L608H570Q4U;
+EndCmp
+
+BeginCmp
+TimeStamp = /51795D73;
+Reference = SW4;
+ValeurCmp = SPST;
+IdModule  = ipc-7251TH Non-Standard:SW_Jameco2135478U;
+EndCmp
+
+BeginCmp
+TimeStamp = /53555F6E;
+Reference = SW5;
+ValeurCmp = 2xSPST;
+IdModule  = ipc-7251TH Standard:DIPSW762W57P254L608H570Q4U;
+EndCmp
+
+BeginCmp
+TimeStamp = /53555F79;
+Reference = SW8;
+ValeurCmp = 2xSPST;
+IdModule  = ipc-7251TH Standard:DIPSW762W57P254L608H570Q4U;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5F4;
+Reference = TPf1;
+ValeurCmp = Red;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5F7;
+Reference = TPf2;
+ValeurCmp = White;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5FB;
+Reference = TPf3;
+ValeurCmp = Green;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5FE;
+Reference = TPf4;
+ValeurCmp = Black;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53554990;
+Reference = TPf5;
+ValeurCmp = Blue;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53554986;
+Reference = TPf6;
+ValeurCmp = Yellow;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355497C;
+Reference = TPf8;
+ValeurCmp = Purple;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53554972;
+Reference = TPf9;
+ValeurCmp = Orange;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5C4;
+Reference = TPm1;
+ValeurCmp = Red;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5D2;
+Reference = TPm2;
+ValeurCmp = White;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5E1;
+Reference = TPm3;
+ValeurCmp = Green;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5E5;
+Reference = TPm4;
+ValeurCmp = Black;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /535547C0;
+Reference = TPm5;
+ValeurCmp = Blue;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /535547B6;
+Reference = TPm6;
+ValeurCmp = Yellow;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /535547AC;
+Reference = TPm8;
+ValeurCmp = Purple;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /535547A2;
+Reference = TPm9;
+ValeurCmp = Orange;
+IdModule  = Misc Unsorted New:TESTPOINT;
+EndCmp
+
+EndListe

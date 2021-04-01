@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 07/06/2012 14:26:41
+
+BeginCmp
+TimeStamp = /4FC6F439;
+Reference = J1;
+ValeurCmp = USB_A_recepticle;
+IdModule  = TYCO_292303-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F41E;
+Reference = J2;
+ValeurCmp = USB_A_plug;
+IdModule  = MOLEX_48037-0001;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC04AA;
+Reference = SW1;
+ValeurCmp = DPST;
+IdModule  = SW_S201031MS02Q;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC06F1;
+Reference = SW2;
+ValeurCmp = DPST;
+IdModule  = SW_S201031MS02Q;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC06F4;
+Reference = SW3;
+ValeurCmp = DPST;
+IdModule  = SW_S201031MS02Q;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC06F7;
+Reference = SW4;
+ValeurCmp = DPST;
+IdModule  = SW_S201031MS02Q;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5F4;
+Reference = TPf1;
+ValeurCmp = VBUSf;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5F7;
+Reference = TPf2;
+ValeurCmp = D-f;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5FB;
+Reference = TPf3;
+ValeurCmp = D+f;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5FE;
+Reference = TPf4;
+ValeurCmp = GNDf;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5C4;
+Reference = TPm1;
+ValeurCmp = VBUSm;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5D2;
+Reference = TPm2;
+ValeurCmp = D-m;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5E1;
+Reference = TPm3;
+ValeurCmp = D+m;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6F5E5;
+Reference = TPm4;
+ValeurCmp = GNDm;
+IdModule  = TESTPOINT;
+EndCmp
+
+EndListe

@@ -1,0 +1,36 @@
+eeschema (2013-04-19 BZR 4011)-stable  >> Creation date: 26/04/2013 03:31:12
+#Cmp ( order = Reference )
+| J1         USB A receptacle; TYCO_292303-1; TYCO        ; 292303-1    ; Jameco      ; 921651      ;             ;             ;             ;             
+| J2         USB A plug  ; MOLEX_48037-0001; Molex       ; 48037-0001  ; Jameco      ; 2161001     ;             ;             ;             ;             
+| SW1        SPST        ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| SW2        SPST        ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| SW3        SPST        ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| SW4        SPST        ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| TPf1       Red         ; TESTPOINT   ; Keystone Electronics; 5010        ; ~           ; ~           ;             ;             ;             ;             
+| TPf2       White       ; TESTPOINT   ; Keystone Electronics; 5012        ; Jameco      ; 1582065     ;             ;             ;             ;             
+| TPf3       Green       ; TESTPOINT   ; Keystone Electronics; 5126        ; ~           ; ~           ;             ;             ;             ;             
+| TPf4       Black       ; TESTPOINT   ; Keystone Electronics; 5011        ; ~           ; ~           ;             ;             ;             ;             
+| TPm1       Red         ; TESTPOINT   ; Keystone Electronics; 5010        ; ~           ; ~           ;             ;             ;             ;             
+| TPm2       White       ; TESTPOINT   ; Keystone Electronics; 5012        ; Jameco      ; 1582065     ;             ;             ;             ;             
+| TPm3       Green       ; TESTPOINT   ; Keystone Electronics; 5126        ; ~           ; ~           ;             ;             ;             ;             
+| TPm4       Black       ; TESTPOINT   ; Keystone Electronics; 5011        ; ~           ; ~           ;             ;             ;             ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| USB A plug   J2        ; MOLEX_48037-0001; Molex       ; 48037-0001  ; Jameco      ; 2161001     ;             ;             ;             ;             
+| USB A receptacle J1        ; TYCO_292303-1; TYCO        ; 292303-1    ; Jameco      ; 921651      ;             ;             ;             ;             
+| SPST         SW1       ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| SPST         SW2       ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| SPST         SW3       ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| SPST         SW4       ; SW_Jameco2135478; JAMECO VALUEPRO; T100T1B4A2  ; Jameco      ; 2135478     ;             ;             ;             ;             
+| Red          TPf1      ; TESTPOINT   ; Keystone Electronics; 5010        ; ~           ; ~           ;             ;             ;             ;             
+| White        TPf2      ; TESTPOINT   ; Keystone Electronics; 5012        ; Jameco      ; 1582065     ;             ;             ;             ;             
+| Green        TPf3      ; TESTPOINT   ; Keystone Electronics; 5126        ; ~           ; ~           ;             ;             ;             ;             
+| Black        TPf4      ; TESTPOINT   ; Keystone Electronics; 5011        ; ~           ; ~           ;             ;             ;             ;             
+| Red          TPm1      ; TESTPOINT   ; Keystone Electronics; 5010        ; ~           ; ~           ;             ;             ;             ;             
+| White        TPm2      ; TESTPOINT   ; Keystone Electronics; 5012        ; Jameco      ; 1582065     ;             ;             ;             ;             
+| Green        TPm3      ; TESTPOINT   ; Keystone Electronics; 5126        ; ~           ; ~           ;             ;             ;             ;             
+| Black        TPm4      ; TESTPOINT   ; Keystone Electronics; 5011        ; ~           ; ~           ;             ;             ;             ;             
+#End Cmp
+
+#End List

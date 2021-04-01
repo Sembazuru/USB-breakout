@@ -1,0 +1,34 @@
+Board specifics:
+Material = 0.062 +/- 10% inches FR4
+Drills shown as finished sizes
+Copper thickness = 1oz or standard
+Outer dimensions = 2.400" x 3.700"
+See *.rpt file for hole counts & details
+Copper finish = HASL after SMOBC or standard
+Mask color = Green or standard
+Silkscreen color = White or standard
+
+Gerber output format:
+Gerber Fmt 3.4, Leading zero omitted, Abs format
+Unit = inches
+
+Excellon output format:
+;FORMAT={2:4/ absolute / inch / keep zeros}
+
+Reference Files:
+USB Breakout v2.0.TXT .............. Text ..... This readme file
+USB Breakout v2.0-Dwgs_User.gbr      Gerber     Board dimensions
+USB Breakout v2.0-drl_map.pho ...... Gerber ... Drill drawing - PTH
+USB Breakout v2.0-NPTH-drl_map.pho   Gerber     Drill drawing - NPTH
+USB Breakout v2.0-drl.rpt .......... Text ..... Drill report
+
+Fabrication Files:
+USB Breakout v2.0-F_Cu.gtl ......... Gerber ... Top (front) copper layer
+USB Breakout v2.0-B_Cu.gbl           Gerber     Bottom (back) copper layer
+USB Breakout v2.0-F_Mask.gts ....... Gerber ... Soldermask Top and Bottom
+USB Breakout v2.0-F_SilkS.gto        Gerber     SilkScreen Top
+USB Breakout v2.0.drl .............. Excellon . Drill file - PTH
+USB Breakout v2.0-NPTH.drl           Excellon   Drill file - NPTH
+USB Breakout v2.0-Edge_Cuts.gbr .... Gerber ... Board outline
+
+Total files: 13
